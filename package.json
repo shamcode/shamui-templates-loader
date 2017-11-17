@@ -1,6 +1,6 @@
 {
   "name": "sham-ui-templates-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webpack loader for shamui-templates",
   "main": "src/indix.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shamcode/shamui-templates-loader.git"
+    "url": "git+https://github.com/sham-ui/sham-ui-templates-loader.git"
   },
   "keywords": [
     "sham-ui"
@@ -16,9 +16,9 @@
   "author": "Eugene Burnashov <shamcode@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shamcode/shamui-templates-loader/issues"
+    "url": "https://github.com/sham-ui/sham-ui-templates-loader/issues"
   },
-  "homepage": "https://github.com/shamcode/shamui-templates-loader#readme",
+  "homepage": "https://github.com/sham-ui/sham-ui-templates-loader#readme",
   "dependencies": {
     "loader-utils": "^0.2.15",
     "sham-ui-templates": "0.0.4"

@@ -1,7 +1,7 @@
 # sham-ui-templates loader for webpack
 
 ```
-npm install shamui-templates-loader --save
+npm install sham-ui-templates-loader --save
 ```
 
 ## Usage
