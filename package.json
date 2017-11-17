@@ -1,5 +1,5 @@
 {
-  "name": "shamui-templates-loader",
+  "name": "sham-ui-templates-loader",
   "version": "1.0.0",
   "description": "Webpack loader for shamui-templates",
   "main": "src/indix.js",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/shamcode/shamui-templates-loader/issues"
   },
-  "homepage": "https://github.com/shamcode/shamui-templates-loader#readme"
+  "homepage": "https://github.com/shamcode/shamui-templates-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.15",
+    "sham-ui-templates": "0.0.4"
+  }
 }
