@@ -1,6 +1,6 @@
 {
   "name": "sham-ui-templates-loader",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Webpack loader for shamui-templates",
   "main": "src/index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   "homepage": "https://github.com/sham-ui/sham-ui-templates-loader#readme",
   "dependencies": {
     "loader-utils": "^0.2.15",
-    "sham-ui-templates": "0.0.7"
+    "sham-ui-templates": "0.0.8"
   }
 }
