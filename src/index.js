@@ -3,7 +3,7 @@ var loaderUtils = require( 'loader-utils' );
 
 module.exports = function( content ) {
     this.cacheable();
-    var config = loaderUtils.getLoaderConfig( this, 'sham-ui' );
+    var config = loaderUtils.getOptions( this );
 
     var compiler = new Compiler();
 
