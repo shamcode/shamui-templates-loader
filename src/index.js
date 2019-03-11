@@ -5,7 +5,7 @@ module.exports = function( content ) {
     this.cacheable();
     var config = loaderUtils.getOptions( this );
 
-    var compiler = new Compiler();
+    var compiler = new Compiler( config );
 
     if ( config.globals ) {
         compiler.globals = config.globals;
