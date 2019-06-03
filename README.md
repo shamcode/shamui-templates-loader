@@ -16,14 +16,14 @@ module.exports = {
         loader: 'sham-ui-templates-loader'
       },
       {
-        test: /\.sfw$/,
+        test: /\.sfc$/,
         use: [
            { loader: 'babel-loader' },
            { 
              loader: 'sham-ui-templates-loader', 
              options: {
                asModule: false,
-               asSingleFileWidget: true
+               asSingleFileComponent: true
              } 
            }
         ]
